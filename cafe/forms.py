@@ -4,5 +4,5 @@ from .models import *
 
 class CafeFrom(ModelForm):
     class Meta:
-        model = Cafe
+        model = CafeModel
         fields = "__all__"

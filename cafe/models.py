@@ -4,7 +4,7 @@ from multiselectfield import MultiSelectField
 
 # Create your models here.
 
-class Cafe(Model):
+class CafeModel(Model):
     name = CharField(max_length=100, null=False, unique=True)
     ratings_choices = (
         ("0", "0"),
