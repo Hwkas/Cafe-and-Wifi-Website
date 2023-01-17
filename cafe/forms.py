@@ -6,3 +6,4 @@ class CafeFrom(ModelForm):
     class Meta:
         model = CafeModel
         fields = "__all__"
+        
