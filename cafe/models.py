@@ -18,6 +18,7 @@ class CafeModel(Model):
     timing = CharField(max_length=100, null=False)
     address = CharField(max_length=150, null=False, unique=True)
     url = URLField()
+    image_url = URLField()
     services_choices = (
         ("Coffee", "Coffee"),
         ("Food", "Food"),

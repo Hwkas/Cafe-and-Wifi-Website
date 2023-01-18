@@ -1,0 +1,14 @@
+{% include "cafe/header.html" %}
+
+
+<form action="" method="POST">
+    {% csrf_token %}
+    <div class="container-fluid" style="background-color:rgb(235, 181, 181);">
+        {{form.as_div}}
+        <input type="submit" name="submit">
+    </div>
+
+</form>
+
+
+{% include "cafe/footer.html" %}
